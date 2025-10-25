@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara Colombel</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="icon" type="image/png" href="./img/logo.png">
+
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <!-- Zone gauche -->
+        <div class="left">
+            <div class="identity">
+                <h1>Sara Colombel</h1>
+                <h2>Epitech AI student</h2>
+            </div>
+        </div>
+
+        <!-- Zone milieu -->
+        <div class="center">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <!-- Zone droite -->
+        <div class="right">
+            <!-- Bouton de langue -->
+            <!-- <div class="language-switch">
+                <img src="https://flagcdn.com/w20/fr.png"
+                        alt="Changer de langue"
+                        class="flag"
+                        id="language-toggle"
+                        title="Changer de langue">
+            </div> -->
+            <a href="https://github.com/SaraColombel" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/sara-colombel-devweb" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:saracolombel.pro@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+        <!-- Burger menu -->
+        <label for="burger-toggle" class="burger">☰</label>
+        <input type="checkbox" id="burger-toggle" hidden />
+
+        <div class="mobile-menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+
+            <div class="mobile-language">
+                <img src="https://flagcdn.com/w20/fr.png"
+                        alt="Changer de langue"
+                        class="flag"
+                        id="language-toggle-mobile"
+                        title="Changer de langue">
+            </div>
+
+            <div class="mobile-icons">
+                <a href="https://github.com/SaraColombel" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/sara-colombel-devweb" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:saracolombel.pro@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <!-- About section -->
+    <section class="intro-section" id="about">
+        <div class="intro-container">
+            <div class="intro-image">
+                <img src="img/portrait.jpg" alt="Sara Colombel portrait" />
+            </div>
+
+            <div class="intro-text">
+                <div class="typewriter">
+                    <span id="line1"></span>
+                    <span id="line2"></span>
+                </div>
+
+                <p class="intro-description">
+                    Studying computer science at EPITECH and applying my passion for
+                    Artificial Intelligence through an apprenticeship at CIMPA in January
+                    2026.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave separator -->
+    <div class="wave-separator">
+        <svg viewBox="0 0 1440 250" preserveAspectRatio="none">
+            <path
+                fill="var(--bg-navbar)"
+                fill-opacity="1"
+                d="M0,160L60,165.3C120,171,240,181,360,176C480,171,600,149,720,149.3C840,149,960,171,1080,170.7C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            ></path>
+        </svg>
+
+        <!-- Skills -->
+        <section class="skills-section" id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skills-cards">
+                <!-- FRONTEND -->
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="HTML">
+                            <i class="devicon-html5-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 60%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="CSS">
+                            <i class="devicon-css3-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="JavaScript">
+                            <i class="devicon-javascript-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="React">
+                            <i class="devicon-react-original colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 10%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Bootstrap">
+                            <i class="devicon-bootstrap-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 20%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BACKEND -->
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="MySQL">
+                            <i class="devicon-mysql-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 45%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Python">
+                            <i class="devicon-python-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="PHP">
+                            <i class="devicon-php-plain"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 25%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="PostgreSQL">
+                            <i class="devicon-postgresql-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 20%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Supabase">
+                            <i class="devicon-supabase-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 20%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TOOLS -->
+                <div class="skill-card">
+                    <h3>Tools & Workflow</h3>
+                    <div class="skills-list">
+
+                        <div class="skill-item" data-skill="VS Code">
+                            <i class="devicon-vscode-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 90%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Linux">
+                            <i class="devicon-linux-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Git">
+                            <i class="devicon-git-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Figma">
+                            <i class="devicon-figma-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 75%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Jira">
+                            <i class="devicon-jira-plain colored"></i>
+                            <div class="progress-bar">
+                                <span style="--level: 40%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects-section" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- CARD 1 -->
+                <div class="project-card">
+                    <img src="img/Clap.png" alt="Project 1 preview" />
+                    <div class="project-content">
+                        <h3>Clap</h3>
+                        <p>
+                            A web platform for movie and series reviews, developed as part of
+                            my web development training at ADRAR Formation.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                            <span>PHP</span>
+                        </div>
+                        <div class="project-footer">
+                            <span class="project-year">
+                                <i class="fa-regular fa-calendar"></i> 2024 - ADRAR Formation
+                            </span>
+                            <div class="project-icons">
+                                <a
+                                    href="https://clapencouleurs.fr/Accueil"
+                                    target="_blank"
+                                    class="live-icon"
+                                >
+                                    <i class="fa-solid fa-globe"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/SaraColombel/Clap.git"
+                                    target="_blank"
+                                    class="github-icon"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="project-card">
+                    <img src="img/linkup.png" alt="Project 2 preview" />
+                    <div class="project-content">
+                        <h3>JobBoard Platform</h3>
+                        <p>
+                            Full-stack job platform allowing users and companies to connect,
+                            apply, and post offers.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Supabase</span>
+                            <span>Git</span>
+                        </div>
+                        <div class="project-footer">
+                            <span class="project-year">
+                                <i class="fa-regular fa-calendar"></i> 2025 - Epitech
+                            </span>
+                            <div class="project-icons">
+                                <a
+                                    href="https://github.com/SaraColombel/linkup"
+                                    target="_blank"
+                                    class="github-icon"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="project-card">
+                    <img src="img/keychain.png" alt="Project 3 preview" />
+                    <div class="project-content">
+                        <h3>3D Keychain Generator</h3>
+                        <p>
+                            Automated 3D printing workflow using OpenSCAD and OrcaSlicer to
+                            generate and slice personalized Epitech keychains.
+                        </p>
+                        <div class="project-tags">
+                            <span>OpenSCAD</span>
+                            <span>Shell</span>
+                            <span>OrcaSlicer</span>
+                        </div>
+                        <div class="project-footer">
+                            <span class="project-year">
+                                <i class="fa-regular fa-calendar"></i> 2025 - Epitech
+                            </span>
+                            <div class="project-icons">
+                                <a
+                                    href="https://github.com/SaraColombel/3d-keychain-generator.git"
+                                    target="_blank"
+                                    class="github-icon"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT POPUP -->
+        <div class="project-modal" id="project-modal">
+            <div class="modal-content">
+                <div class="carousel-container">
+                    <button role="button" tabindex="0" class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="carousel-images">
+                        <!-- Images insérées dynamiquement -->
+                    </div>
+                    <button role="button" tabindex="0" class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <h3 id="modal-title"></h3>
+                        <div class="modal-tags" id="modal-tags"></div>
+                    </div>
+                    <div class="modal-links" id="modal-links"></div>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Interests -->
+        <section class="interests-section" id="interests">
+            <h2>Interests</h2>
+            <div class="interests-row">
+                <div class="interest-item" data-interest="music">
+                    <i class="fa-solid fa-music"></i>
+                    <p>Violin & Music</p>
+                </div>
+
+                <div class="interest-item" data-interest="ai">
+                    <i class="fa-solid fa-brain"></i>
+                    <p>Artificial Intelligence</p>
+                </div>
+
+                <div class="interest-item" data-interest="printing">
+                    <i class="fa-solid fa-cube"></i>
+                    <p>3D Printing</p>
+                </div>
+
+                <div class="interest-item" data-interest="tech">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p>Technology</p>
+                </div>
+
+                <div class="interest-item" data-interest="gaming">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p>Gaming</p>
+                </div>
+
+                <div class="interest-item" data-interest="fitness">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <p>Fitness</p>
+                </div>
+            </div>
+
+            <div class="interests-description" id="interest-description">
+            </div>
+        </section>
+    </div>
+
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none" class="wave-separator-bottom">
+        <path
+            fill="var(--bg-navbar)"
+            fill-opacity="1"
+            d="M0,160L60,165.3C120,171,240,181,360,176C480,171,600,149,720,149.3C840,149,960,171,1080,170.7C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+    </svg>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <!-- Zone gauche -->
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p class="contact-message">
+                    Feel free to reach out for collaborations, questions, or just to say hi!
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><a href="mailto:saracolombel.pro@gmail.com">saracolombel.pro@gmail.com</a></span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+33 7 82 66 44 68</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Toulouse, France</span>
+                    </div>
+                </div>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/SaraColombel" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/sara-colombel-devweb" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Zone droite : formulaire -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mkgqaqdq" method="POST">
+                    <div class="input-field">
+                        <input type="text" id="name" name="Your name" required />
+                        <label for="name">Your Name</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="email" id="email" name="Your email" required />
+                        <label for="email">Your Email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <textarea
+                            id="message"
+                            name="message"
+                            class="materialize-textarea"
+                            required
+                        ></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+
+                    <button type="submit" class="btn contact-btn ">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="mailto:saracolombel.pro@gmail.com" class="footer-link">
+                Me contacter
+            </a>
+            <p class="footer-left">
+                © 2025 – Present <strong>Sara Colombel</strong>. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+        defer
+    ></script>
+    <script src="script.js" defer></script>
+    <!-- <script
+        src="https://kit.fontawesome.com/a076d05399.js"
+        crossorigin="anonymous"
+    ></script> -->
+</body>
+</html>
