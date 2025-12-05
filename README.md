@@ -30,17 +30,3 @@ Ce projet me permet de :
 | **Animations** | CSS transitions, keyframes, JS typing effect |
 | **Déploiement** | GitHub Pages |
 | **Design** | Figma |
-
----
-
-## Installation locale
-
-```bash
-# 1. Cloner le repo
-git clone https://github.com/ColombelSara/T-ENT-500-TLS_SARA-COLOMBEL
-
-# 2. Entrer dans le dossier
-cd T-ENT-500-TLS_SARA-COLOMBEL
-
-# 3. Ouvrir le site dans son navigateur
-# (double-cliquer sur index.html)
